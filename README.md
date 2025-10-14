@@ -1,4 +1,4 @@
-# ARMv7 Prebuilt Tools
+# ARMv7 Musleabi Prebuilt Tools
 
 Prebuilt small tools for ARMv7 (not ARMv7hf) devices, e.g. older ASUS routers.
 
@@ -21,7 +21,9 @@ and stripped for smaller size.
 | **dnsmasq** | [simonchen/dnsmasq](https://github.com/simonchen/dnsmasq) | GPL-3.0 | Upstream only provides `armv7hf`; built for `armv7` |
 | **dufs** | [sigoden/dufs](https://github.com/sigoden/dufs) | MIT or Apache-2.0 | Upstream only provides `armv7hf`; built for `armv7` |
 | **iperf** | [esnet/iperf](https://github.com/esnet/iperf) | BSD-3-Clause | No official ARM release; built for `armv7` |
+| **openvpn** | [OpenVPN/openvpn](https://github.com/OpenVPN/openvpn) | GPL-2.0 | Source only; built for `armv7`; Extracted from ASUS firmware |
 | **tinyproxy** | [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) | GPL-2.0 | Source only; built for `armv7` |
+| **upsnap** | [seriousm4x/UpSnap](https://github.com/seriousm4x/UpSnap) | MIT | Upstream only provides `armv7hf`; built for `armv7` |
 | **wol** | [nashaofu/wol](https://github.com/nashaofu/wol) | Apache-2.0 | Official ARMv7 binary available; here it is stripped to reduce size |
 
 ---
@@ -37,6 +39,7 @@ and stripped for smaller size.
 
 ## Related Projects
 
+- [richfelker/musl-cross-make](https://github.com/richfelker/musl-cross-make) — Simple makefile-based build for musl cross compiler.
 - [therealsaumil/static-arm-bins](https://github.com/therealsaumil/static-arm-bins) — A large collection of statically compiled ARM tools.
 
 ---
