@@ -16,15 +16,15 @@ and stripped for smaller size.
 
 ## Tools Included
 
-| Tool | Source | License | Notes |
-|------|--------|---------|-------|
-| **dnsmasq** | [simonchen/dnsmasq](https://github.com/simonchen/dnsmasq) | GPL-3.0 | Upstream only provides `armv7hf`; built for `armv7` |
-| **dufs** | [sigoden/dufs](https://github.com/sigoden/dufs) | MIT or Apache-2.0 | Upstream only provides `armv7hf`; built for `armv7` |
-| **iperf** | [esnet/iperf](https://github.com/esnet/iperf) | BSD-3-Clause | No official ARM release; built for `armv7` |
-| **openvpn** | [OpenVPN/openvpn](https://github.com/OpenVPN/openvpn) | GPL-2.0 | Source only; built for `armv7`; Extracted from ASUS firmware |
-| **tinyproxy** | [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) | GPL-2.0 | Source only; built for `armv7` |
-| **upsnap** | [seriousm4x/UpSnap](https://github.com/seriousm4x/UpSnap) | MIT | Upstream only provides `armv7hf`; built for `armv7` |
-| **wol** | [nashaofu/wol](https://github.com/nashaofu/wol) | Apache-2.0 | Official ARMv7 binary available; here it is stripped to reduce size |
+| Tool | Description | Source | License | Notes |
+|------|-------------|--------|---------|-------|
+| **dnsmasq** | Self-built DHCP and DNS services | [simonchen/dnsmasq](https://github.com/simonchen/dnsmasq) | GPL-3.0 | Upstream only provides `armv7hf`; built for `armv7` |
+| **dufs** | A lightweight WebDAV service | [sigoden/dufs](https://github.com/sigoden/dufs) | MIT or Apache-2.0 | Upstream only provides `armv7hf`; built for `armv7` |
+| **iperf** | (Local) network speed test tool | [esnet/iperf](https://github.com/esnet/iperf) | BSD-3-Clause | No official ARM release; built for `armv7` |
+| **openvpn** | OpenVPN is a VPN tool | [OpenVPN/openvpn](https://github.com/OpenVPN/openvpn) | GPL-2.0 | Source only; built for `armv7`; Extracted from ASUS firmware |
+| **tinyproxy** | A lightweight HTTP/HTTPS proxy | [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) | GPL-2.0 | Source only; built for `armv7` |
+| **upsnap** | A feature-rich web application for WOL | [seriousm4x/UpSnap](https://github.com/seriousm4x/UpSnap) | MIT | Upstream only provides `armv7hf`; built for `armv7` |
+| **wol** | A lightweight web application for WOL | [nashaofu/wol](https://github.com/nashaofu/wol) | Apache-2.0 | Official ARMv7 binary available; here it is stripped to reduce size |
 
 ---
 
